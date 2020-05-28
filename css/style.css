@@ -1,0 +1,82 @@
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Components */
+@import url('components/buttons.css');
+@import url('components/cards.css');
+
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner {
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.container {
+  width: 900px;
+  margin: 40px auto;
+}
+
+.banner h1 {
+  color: #FFF;
+  text-shadow: 0 1px 2px #000;
+}
+
+.banner p {
+  font-family: Open Sans;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Footer */
+
+.footer {
+  padding: 60px;
+  background-color: #18181c;
+  text-align: center;
+}
+
+.footer p {
+  color: #bbedc9;
+}
+
+.social-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline;
+  padding: 0 5px;
+}
+
+.fab {
+  color: #65DE89;
+  font-size: 30px;
+  transition: 0.7s;
+}
+
+.fab:hover {
+  color: #bbedc9
+}
